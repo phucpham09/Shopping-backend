@@ -6,7 +6,7 @@ export default new DataSource({
   port: 5432,
   username: 'postgres',
   password: 'admin',
-  database: 'blog-backend',
+  database: 'shopping-backend',
   entities: ['dist/**/*.entity.js'],
   migrations: ['dist/database/migrations/*.js'],
 });
